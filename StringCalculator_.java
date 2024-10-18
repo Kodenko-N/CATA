@@ -117,7 +117,7 @@ public static int intFormat (String strIn)
 
         if (op.equals(" + ") || op.equals(" - ") || op.equals(" * ") || op.equals(" / "))
         {
-           // System.out.println("the oprator is \"" + op + "\"");
+           System.out.println("the oprator is \"" + op + "\"");
             strInUpd = strInUpd.substring(3, strInUpd.length());
            // System.out.println("Line in without first sentence and operator is " + strInUpd);
             //Сложение
